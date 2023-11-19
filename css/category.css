@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Quantico', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+:root{
+    --bg-color:#fff;
+    --second-bg-color:#d9d9d9;
+    --text-color:#000;
+    --main-color:#01dee6;
+}
+
+body{
+    background:var(--bg-color);
+    color: var(--text-color);
+}
+
+section{
+    min-width: 100vh;
+    padding: 12rem 9% 2rem ;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: #157885;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor:default;
+}
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 3rem;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a:hover {
+    color: var(--bg-color);
+}
+
+.button{
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    padding: 2rem 4rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.card-container{
+    margin-top: 100px;
+}
+
+.card-cont {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.card-frame{
+    width: 150px;
+    height: 220px;
+    background-color: #875749;
+    margin-right: 120px;
+    border-radius: 50px;
+
+}
+
+.card-frame img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-desc p{
+    font-size: 15px;
+    font-weight: bolder;
+}

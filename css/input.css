@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+body{ 
+    font-family: 'Quantico', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #875749;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+}
+
+.sidebar h3{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+    padding-bottom: 30px;
+}
+
+.sidebar ul a{
+padding-top: 20px;
+display: block;
+height: 100%;
+width: 100%;
+line-height: 65px;
+font-size: 20px;
+color:black;
+padding-left: 40px;
+box-sizing: border-box;
+transition: .4s;
+}
+
+ul li:hover a{
+    background: grey;
+    border-radius: 20px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+    opacity: 0,65;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(17, 154, 233);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(69, 134, 160);
+  }
+  
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+  }
+
+h1{
+    width: 70%;
+    margin: auto;
+}

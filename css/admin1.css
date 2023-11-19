@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+body{ 
+    font-family: 'Quantico', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #157885;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+}
+
+.sidebar h3{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+    padding-bottom: 30px;
+}
+
+.sidebar ul a{
+padding-top: 20px;
+display: block;
+height: 100%;
+width: 100%;
+line-height: 65px;
+font-size: 20px;
+color:black;
+padding-left: 40px;
+box-sizing: border-box;
+transition: .4s;
+}
+
+ul li:hover a{
+    background: grey;
+    border-radius: 20px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+    opacity: 0,65;
+}
+
+.table{
+    justify-content: center;
+    margin-left: 350px;
+    padding-right: 250px;
+    padding-top: 10px;
+}
+
+.table h1
+{
+    margin-left: 340px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
